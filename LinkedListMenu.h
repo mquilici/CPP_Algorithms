@@ -45,7 +45,7 @@ void loadBidsLL(std::string csvPath, LinkedList *list) {
  * @param arg[1] path to CSV file to load from (optional)
  * @param arg[2] the bid Id to use when searching the list (optional)
  */
-void linkedListMenu(std::string csvPath) {
+void linkedListMenu(const std::string &csvPath) {
 
     // Define a timer variable
     clock_t ticks;

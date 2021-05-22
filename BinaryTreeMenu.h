@@ -43,7 +43,7 @@ void loadBidsBT(std::string csvPath, BinarySearchTree* bst) {
 /**
  * The one and only main() method
  */
-void binaryTreeMenu(std::string csvPath) {
+void binaryTreeMenu(const std::string &csvPath) {
 
     // Define a timer variable
     clock_t ticks;

@@ -43,7 +43,7 @@ void loadBidsHT(std::string csvPath, HashTable* hashTable) {
 /**
  * The one and only main() method
  */
-void hashTableMenu(std::string csvPath) {
+void hashTableMenu(const std::string &csvPath) {
 
     // Define a timer variable
     clock_t ticks;
